@@ -38,7 +38,12 @@
         color: $white;
         @include transition(0.4s);
     }
-
+    &.fix_font {
+        @include xs {
+            padding: 12px 32px;
+            font-size: 14px;
+        }
+    }
     &.style_1 {
         color: #F7F7F7;
         border: 1px solid #F7F7F7;
@@ -54,10 +59,6 @@
         border-radius: 12px;
         border: 1px solid rgba(11, 37, 69, 0.15);
         background: #F7F7F7;
-    }
-    @include xs {
-        padding: 12px 32px;
-        font-size: 14px;
     }
 }
 // Button style End
@@ -353,6 +354,9 @@
         gap: 32px;
         border-radius: 16px;
         background: #17304E;
+        @include xxs {
+            padding: 20px 16px;
+        }
         .rb_step {
             display: flex;
             align-items: center;
@@ -483,10 +487,6 @@
                         font-weight: 400;
                         line-height: 28px; /* 175% */
                         letter-spacing: -0.16px;
-                        @include xxs {
-                            font-size: 14px;
-                            line-height: 26px;
-                        }
                     }
                 }
             }
@@ -736,7 +736,7 @@
                     line-height: 32px; /* 160% */
                     letter-spacing: -0.2px;
                     @include xs {
-                        font-size: 14px;
+                        font-size: 16px;
                     }                    
                     &:not(:last-child) {
                         padding-bottom: 20px;
