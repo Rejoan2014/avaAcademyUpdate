@@ -909,6 +909,13 @@
         &.style_1 {
             margin-top: 175px;
         }
+
+        &.for-signup{
+            @include xs{
+                height: auto;
+                margin-bottom: 50px;
+            }
+        }
         @include xs {
             margin-top: 230px;
         }

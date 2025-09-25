@@ -34213,6 +34213,12 @@ header {
   margin-top: 175px;
 }
 @media only screen and (min-width: 0px) and (max-width: 575px) {
+  .rb_hero_five .hero_wrapper.for-signup {
+    height: auto;
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
   .rb_hero_five .hero_wrapper {
     margin-top: 230px;
   }
