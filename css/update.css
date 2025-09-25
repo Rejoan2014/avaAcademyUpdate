@@ -34610,6 +34610,12 @@ header {
   letter-spacing: -0.2px;
   max-width: 527px;
 }
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .header_area_2 .rb_desc.style_2 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
 @media only screen and (min-width: 0px) and (max-width: 575px) {
   .header_area_2 .rb_desc {
     font-size: 14px;
@@ -35109,4 +35115,6 @@ h5,
 h6,
 p {
   margin: 0;
-}/*# sourceMappingURL=update.css.map */
+}
+
+/*# sourceMappingURL=update.css.map */
