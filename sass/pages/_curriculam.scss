@@ -928,7 +928,9 @@
             }
             @include xs {
                 align-items: center;
+                max-width: 350px;
             }
+
             .rb_header {
                 display: flex;
                 align-items: center;

@@ -34237,6 +34237,7 @@ header {
 @media only screen and (min-width: 0px) and (max-width: 575px) {
   .rb_hero_five .hero_wrapper .rb_signIn_card {
     align-items: center;
+    max-width: 350px;
   }
 }
 .rb_hero_five .hero_wrapper .rb_signIn_card .rb_header {
