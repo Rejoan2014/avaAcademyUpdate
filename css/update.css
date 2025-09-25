@@ -30693,7 +30693,7 @@
 }
 .header-wrap .main-menu ul li.menu-item-has-children:hover::after {
   margin-top: -10px;
-  color: #3561ff;
+  color: #FFC857;
   transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
@@ -30711,7 +30711,7 @@
   }
 }
 .header-wrap .main-menu ul li:hover > a {
-  color: #3561ff;
+  color: #FFC857;
 }
 .header-wrap .main-menu ul li.active, .header-wrap .main-menu ul li.current-menu-ancestor {
   position: relative;
@@ -30806,7 +30806,7 @@
   transition: all 0.4s ease;
 }
 .header-wrap .main-menu ul ul li > a:hover {
-  background-color: #3561ff;
+  background-color: #FFC857;
   color: #fff;
 }
 .header-wrap .main-menu ul ul li:last-child a {
@@ -30960,7 +30960,7 @@ header {
 }
 .header-1.style_2 .header-wrap .main-menu ul li.menu-item-has-children:hover::after {
   margin-top: -10px;
-  color: #3561ff;
+  color: #FFC857;
   transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
@@ -30978,7 +30978,7 @@ header {
   }
 }
 .header-1.style_2 .header-wrap .main-menu ul li:hover > a {
-  color: #3561ff;
+  color: #FFC857;
 }
 .header-1.style_2 .header-wrap .main-menu ul li.active, .header-1.style_2 .header-wrap .main-menu ul li.current-menu-ancestor {
   position: relative;
@@ -31080,7 +31080,7 @@ header {
   transition: all 0.4s ease;
 }
 .header-1.style_2 .header-wrap .main-menu ul ul li > a:hover {
-  background-color: #3561ff;
+  background-color: #FFC857;
   color: #fff;
 }
 .header-1.style_2 .header-wrap .main-menu ul ul li:last-child a {
@@ -31156,7 +31156,7 @@ header {
 }
 .header-1.style_3 .header-wrap .main-menu ul li.menu-item-has-children:hover::after {
   margin-top: -10px;
-  color: #3561ff;
+  color: #FFC857;
   transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
@@ -31174,7 +31174,7 @@ header {
   }
 }
 .header-1.style_3 .header-wrap .main-menu ul li:hover > a {
-  color: #3561ff;
+  color: #FFC857;
 }
 .header-1.style_3 .header-wrap .main-menu ul li.active, .header-1.style_3 .header-wrap .main-menu ul li.current-menu-ancestor {
   position: relative;
@@ -31276,7 +31276,7 @@ header {
   transition: all 0.4s ease;
 }
 .header-1.style_3 .header-wrap .main-menu ul ul li > a:hover {
-  background-color: #3561ff;
+  background-color: #FFC857;
   color: #fff;
 }
 .header-1.style_3 .header-wrap .main-menu ul ul li:last-child a {
@@ -31687,7 +31687,7 @@ header {
 #preloader {
   width: 250px;
   height: 250px;
-  background-color: #3561ff;
+  background-color: #FFC857;
   border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -31726,7 +31726,7 @@ header {
   align-items: center;
   gap: 20px;
   border: 3px solid #d1d8e0;
-  border-top: 3px solid #3561ff;
+  border-top: 3px solid #FFC857;
   border-radius: 50%;
   animation: spin 3s linear infinite;
   -webkit-animation: spin 3s linear infinite;
@@ -31760,7 +31760,7 @@ header {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   cursor: pointer;
-  background-color: #3561ff;
+  background-color: #FFC857;
   border: 1px solid transparent;
   color: #fff;
 }
@@ -33005,7 +33005,7 @@ header {
   }
 }
 .footer_two .footer_area_quick_menu .quicklink ul li:hover a {
-  color: #3561ff;
+  color: #FFC857;
 }
 .footer_two .footer_area_quick_menu .quicklink ul li.menu-item-has-children::after {
   color: #4A4D56 !important;
@@ -33017,7 +33017,7 @@ header {
   }
 }
 .footer_two .footer_area_quick_menu .quicklink ul li.menu-item-has-children:hover::after {
-  color: #3561ff !important;
+  color: #FFC857 !important;
 }
 .footer_two .footer_area_quick_menu .quicklink ul li.menu-item-has-children a {
   padding-right: 22px;
@@ -33071,7 +33071,7 @@ header {
 .footer_two .footer_area_quick_menu .quicklink form button {
   width: 124px;
   height: 40px;
-  background-color: #3561ff;
+  background-color: #FFC857;
   text-align: center;
   line-height: 40px;
   border: none;
@@ -33110,7 +33110,7 @@ header {
   transition: all 0.4s ease;
 }
 .footer_two .footer_area_quick_menu .quicklink .social_media ul li a:hover {
-  background-color: #3561ff;
+  background-color: #FFC857;
   border: 1px solid transparent;
   color: #fff;
 }
@@ -33192,7 +33192,7 @@ header {
   }
 }
 .footer_two .footer_last .footer_last_menu ul li a:hover {
-  color: #3561ff !important;
+  color: #FFC857 !important;
 }
 .footer_two .social_area {
   display: flex;
@@ -33227,7 +33227,7 @@ header {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   text-align: center;
-  color: #3561ff;
+  color: #FFC857;
   transition: all 0.4s ease;
   background: #FFF;
 }
@@ -34768,7 +34768,7 @@ header {
   }
 }
 .btn_wrapper:hover a {
-  background-color: #3561ff;
+  background-color: #FFC857;
 }
 .btn_wrapper:hover a span i {
   transform: rotate(0deg);
@@ -34781,7 +34781,7 @@ header {
   background-color: #3c3865;
 }
 .btn_wrapper.style_1 a:hover {
-  background-color: #3561ff;
+  background-color: #FFC857;
 }
 .btn_wrapper.style_2 a {
   background: linear-gradient(180deg, #0ebef6 0%, #3171fb 100%);
@@ -35065,7 +35065,7 @@ header {
   text-align: center;
   line-height: 46px;
   border-radius: 50%;
-  background-color: #3561ff;
+  background-color: #FFC857;
   position: relative;
   z-index: 9;
   cursor: pointer;
