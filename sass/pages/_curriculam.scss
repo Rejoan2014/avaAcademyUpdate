@@ -100,12 +100,10 @@
             padding: 20px;
         }
 
-        @include xs{
-            width: 380px;
+        @include md{
+            width: 95%;
         }
-        @include xxs{
-            width: 350px;
-        }
+       
         h3 {
             color: #0B2545;
             font-family: $font10;
