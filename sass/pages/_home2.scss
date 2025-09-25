@@ -1299,5 +1299,12 @@
        @include xxs{
          padding: 15px 30px ;
        }
+
+       &.style_2{
+        &:hover{
+            color: black;
+            border-color: #FFC857;
+        }
+       }
     }
 }

@@ -205,6 +205,9 @@
                             top: 50%;
                             left: 50%;
                             transform: translate(-50%, -50%);
+                            animation: playButtonAnimation 2s linear infinite;
+                           
+                            
                         }
                     }
                 }
@@ -280,6 +283,9 @@
         @include xs {
             height: 557px;
         }
+        @include xxs {
+            height: 450px;
+        }
         .fix_hero {
             margin-top: 315px;
             @include md {
@@ -289,7 +295,7 @@
                 margin-top: 300px;
             }
             @include xxs {
-                margin-top: 217px;
+                margin-top: 160px;
             }
         }
         .rb_content {
@@ -741,6 +747,10 @@
         {
             padding-left: 50px !important;
         }
+
+        input[type="password"]{
+            padding-right: 53px;
+        }
         .nice-select,
         select {
             padding-left: 50px !important;
@@ -823,6 +833,10 @@
         border-radius: 20px;
         border: 2px solid #FFF;
         background: #F7F7F7;
+
+        @include sm{
+            max-width: 95%;
+        }
         @include xs {
             padding: 20px;
         }

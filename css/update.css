@@ -30874,6 +30874,24 @@ header {
 .header-1 .header-wrap .logo .sticky-logo {
   display: none;
 }
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .header-1 .header-wrap .logo .primary-logo img {
+    max-width: 160px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .header-1 .header-wrap .logo .primary-logo {
+    display: none;
+  }
+}
+.header-1 .header-wrap .logo .logo-icon {
+  display: none;
+}
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .header-1 .header-wrap .logo .logo-icon {
+    display: block;
+  }
+}
 .header-1 .header-wrap .header-right {
   display: -webkit-box;
   display: -moz-box;
@@ -30882,11 +30900,6 @@ header {
   display: flex;
   align-items: center;
   gap: 20px;
-}
-@media (max-width: 580px) {
-  .header-1 .header-wrap .header-right .btn_wrapper {
-    display: none;
-  }
 }
 .header-1 .header-wrap .header-right .offcanvas-bar {
   background-color: transparent;
@@ -31310,6 +31323,16 @@ header {
 .sticky_top.header-1 .header-wrap .logo .sticky-logo {
   display: block;
 }
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .sticky_top.header-1 .header-wrap .logo .sticky-logo {
+    max-width: 160px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .sticky_top.header-1 .header-wrap .logo .sticky-logo {
+    display: none;
+  }
+}
 .sticky_top.header-1 .header-wrap .main-menu ul li a {
   padding: 26px 24px;
 }
@@ -31339,6 +31362,11 @@ header {
 }
 .sticky_top.header-1.style_2 .header-wrap .logo .sticky-logo {
   display: block;
+}
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .sticky_top.header-1.style_2 .header-wrap .logo .sticky-logo {
+    display: none;
+  }
 }
 .sticky_top.header-1.style_2 .header-wrap .main-menu ul li a {
   padding: 26px 24px;
@@ -31374,6 +31402,21 @@ header {
 }
 .sticky_top.header-1.style_3 .header-wrap .logo .sticky-logo {
   display: block;
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .sticky_top.header-1.style_3 .header-wrap .logo .sticky-logo img {
+    max-width: 160px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .sticky_top.header-1.style_3 .header-wrap .logo .sticky-logo {
+    display: none;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .sticky_top.header-1.style_3 .header-wrap .logo .logo-icon {
+    display: block;
+  }
 }
 .sticky_top.header-1.style_3 .header-wrap .main-menu ul li a {
   padding: 26px 24px;
@@ -31448,28 +31491,18 @@ header {
 @keyframes playButtonAnimation {
   0% {
     transform: translate(-50%, -50%) scale(1);
-    border-color: white;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
   }
   25% {
     transform: translate(-50%, -50%) scale(1.1);
-    border-color: #ff5733;
-    box-shadow: 0 0 15px rgba(255, 87, 51, 0.8);
   }
   50% {
     transform: translate(-50%, -50%) scale(1);
-    border-color: white;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
   }
   75% {
     transform: translate(-50%, -50%) scale(1.1);
-    border-color: #ff5733;
-    box-shadow: 0 0 15px rgba(255, 87, 51, 0.8);
   }
   100% {
     transform: translate(-50%, -50%) scale(1);
-    border-color: white;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
   }
 }
 /* Animation for Tada */
@@ -33198,6 +33231,10 @@ header {
     padding: 15px 30px;
   }
 }
+.modal .rb_btn.style_2:hover {
+  color: black;
+  border-color: #FFC857;
+}
 
 /*---Hero Three Section Start---*/
 .rb_hero_three {
@@ -33433,6 +33470,7 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  animation: playButtonAnimation 2s linear infinite;
 }
 
 /*---Hero Four Section Start---*/
@@ -33516,6 +33554,11 @@ header {
     height: 557px;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .rb_hero_four .hero_wrapper {
+    height: 450px;
+  }
+}
 .rb_hero_four .hero_wrapper .fix_hero {
   margin-top: 315px;
 }
@@ -33531,7 +33574,7 @@ header {
 }
 @media only screen and (min-width: 0px) and (max-width: 479px) {
   .rb_hero_four .hero_wrapper .fix_hero {
-    margin-top: 217px;
+    margin-top: 160px;
   }
 }
 .rb_hero_four .hero_wrapper .rb_content {
@@ -34030,6 +34073,9 @@ header {
 .rb_common_input2 .input_icon_wrap textarea {
   padding-left: 50px !important;
 }
+.rb_common_input2 .input_icon_wrap input[type=password] {
+  padding-right: 53px;
+}
 .rb_common_input2 .input_icon_wrap .nice-select,
 .rb_common_input2 .input_icon_wrap select {
   padding-left: 50px !important;
@@ -34117,6 +34163,11 @@ header {
   border-radius: 20px;
   border: 2px solid #FFF;
   background: #F7F7F7;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .rb_application_form .rb_application_card {
+    max-width: 95%;
+  }
 }
 @media only screen and (min-width: 0px) and (max-width: 575px) {
   .rb_application_form .rb_application_card {

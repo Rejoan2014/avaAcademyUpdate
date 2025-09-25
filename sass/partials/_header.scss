@@ -235,16 +235,32 @@ header{
 			.sticky-logo{
 				display: none;
 			}
+
+			.primary-logo{
+				img{
+					@include xs{
+						max-width: 160px;
+					}
+				}
+
+				@include xxs{
+					display: none;
+				}
+			}
+
+			.logo-icon{
+				display: none;
+
+				@include xxs{
+					display: block;
+				}
+			}
 		}
 		.header-right{
 			@include flexbox();
 			align-items: center;
 			gap: 20px;
-			@media (max-width: 580px){
-				.btn_wrapper{
-					display: none;
-				}
-			}
+			
 			.offcanvas-bar{
 				background-color: transparent;
 				border: none;
@@ -489,6 +505,8 @@ header{
 				display: flex;
 				padding: 10px 16px 10px 20px;
 			}
+
+			
 			.main-menu {
 				ul {
 					margin: 0;
@@ -737,6 +755,14 @@ header{
 				}
 				.sticky-logo{
 					display: block;
+
+					@include xs{
+						max-width: 160px;
+					}
+
+					@include xxs{
+						display: none;
+					}
 				}
 			}
 			.main-menu {
@@ -775,6 +801,10 @@ header{
 					}
 					.sticky-logo{
 						display: block;
+
+						@include xxs{
+							display: none;
+						}
 					}
 				}
 				.main-menu {
@@ -817,7 +847,23 @@ header{
 					}
 					.sticky-logo{
 						display: block;
+
+						@include xs{
+							img{
+								max-width: 160px;
+							}
+						}
+
+						@include xxs{
+							display: none;
+						}
 					}
+					.logo-icon{
+						@include xxs{
+							display: block;
+						}
+					}
+
 				}
 				.main-menu {
 					ul {
