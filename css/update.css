@@ -33313,6 +33313,16 @@ header {
     padding: 20px;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .rb_curriculum_list .rb_card {
+    width: 380px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .rb_curriculum_list .rb_card {
+    width: 350px;
+  }
+}
 .rb_curriculum_list .rb_card h3 {
   color: #0B2545;
   font-family: "Playfair Display", serif;
