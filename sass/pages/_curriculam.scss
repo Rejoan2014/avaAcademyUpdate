@@ -901,7 +901,7 @@
                 width: 100%;
             }
 
-            @include xxs{
+            @include xs{
                 margin-top: 60px;
             }
         }
@@ -934,12 +934,20 @@
             border-radius: 16px;
             background: #FFF;
             box-shadow: 25px 55px 80px 0 rgba(0, 33, 71, 0.08);
+
+            @include md{
+                margin-top: 150px;
+            }
             @include sm {
                 padding: 30px;
             }
             @include xs {
                 align-items: center;
                 max-width: 350px;
+                margin-top: 100px;
+            }
+            @include xxs{
+                margin-top: 50px;
             }
 
             .rb_header {
