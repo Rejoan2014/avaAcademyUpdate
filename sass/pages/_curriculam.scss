@@ -721,7 +721,8 @@
             top: 72%;
             right: 20px;
             transform: translateY(-50%);
-            pointer-events: none;
+            border: none;
+            background-color: transparent;
         }
         .input_textarea_icon {
             position: absolute;
@@ -748,8 +749,9 @@
             padding-left: 50px !important;
         }
 
-        input[type="password"]{
+        input#password{
             padding-right: 53px;
+            padding-left: 20px !important;
         }
         .nice-select,
         select {

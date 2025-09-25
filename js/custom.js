@@ -51,6 +51,23 @@
             $(".tp-offcanvas-overlay").removeClass("tp-offcanvas-overlay-open");
         });
 
+        // password show hide 
+         $(".input_icon2").on("click", function (e) {
+            e.preventDefault(); // stop form submit
+
+            const $passwordField = $("#password");
+            const $icon = $(this).find("i");
+
+            // toggle field type
+            if ($passwordField.attr("type") === "password") {
+            $passwordField.attr("type", "text");
+            $icon.removeClass("fa-eye-slash").addClass("fa-eye");
+            } else {
+            $passwordField.attr("type", "password");
+            $icon.removeClass("fa-eye").addClass("fa-eye-slash");
+            }
+        });
+
         // The Plan 
         function thePlan() {
                 $('.process-step:not(.active) .step-content').hide();

@@ -34058,7 +34058,8 @@ header {
   top: 72%;
   right: 20px;
   transform: translateY(-50%);
-  pointer-events: none;
+  border: none;
+  background-color: transparent;
 }
 .rb_common_input2 .input_icon_wrap .input_textarea_icon {
   position: absolute;
@@ -34084,8 +34085,9 @@ header {
 .rb_common_input2 .input_icon_wrap textarea {
   padding-left: 50px !important;
 }
-.rb_common_input2 .input_icon_wrap input[type=password] {
+.rb_common_input2 .input_icon_wrap input#password {
   padding-right: 53px;
+  padding-left: 20px !important;
 }
 .rb_common_input2 .input_icon_wrap .nice-select,
 .rb_common_input2 .input_icon_wrap select {
