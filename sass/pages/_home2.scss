@@ -1293,3 +1293,11 @@
     }
 }
 /*--- Footer Two End---*/
+
+.modal{
+    .rb_btn{
+       @include xxs{
+         padding: 15px 30px ;
+       }
+    }
+}

@@ -33193,6 +33193,12 @@ header {
 }
 
 /*--- Footer Two End---*/
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .modal .rb_btn {
+    padding: 15px 30px;
+  }
+}
+
 /*---Hero Three Section Start---*/
 .rb_hero_three {
   position: relative;
