@@ -900,6 +900,10 @@
             @include xxl {
                 width: 100%;
             }
+
+            @include xxs{
+                margin-top: 60px;
+            }
         }
     }
     .hero_wrapper {
@@ -911,10 +915,10 @@
         }
 
         &.for-signup{
-            @include xs{
+           
                 height: auto;
                 margin-bottom: 50px;
-            }
+            
         }
         @include xs {
             margin-top: 230px;

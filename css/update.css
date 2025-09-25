@@ -34204,6 +34204,11 @@ header {
     width: 100%;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .rb_hero_five .rb_thumb img {
+    margin-top: 60px;
+  }
+}
 .rb_hero_five .hero_wrapper {
   margin-top: 200px;
   height: 700px;
@@ -34212,11 +34217,9 @@ header {
 .rb_hero_five .hero_wrapper.style_1 {
   margin-top: 175px;
 }
-@media only screen and (min-width: 0px) and (max-width: 575px) {
-  .rb_hero_five .hero_wrapper.for-signup {
-    height: auto;
-    margin-bottom: 50px;
-  }
+.rb_hero_five .hero_wrapper.for-signup {
+  height: auto;
+  margin-bottom: 50px;
 }
 @media only screen and (min-width: 0px) and (max-width: 575px) {
   .rb_hero_five .hero_wrapper {
