@@ -31105,6 +31105,17 @@ header {
     margin-top: 28px;
   }
 }
+.header-1.style_3.sticky_top {
+  margin-top: 0;
+  border-bottom: 1px solid #294464;
+  background: #0B2545;
+  padding-bottom: 3px;
+}
+.header-1.style_3.sticky_top .header-wrap {
+  border: none;
+  border-radius: 0;
+  height: 88px;
+}
 @media (min-width: 1200px) {
   .header-1.style_3 .header-wrap {
     display: flex;
@@ -34308,12 +34319,12 @@ header {
   .rb_hero_five .hero_wrapper .rb_signIn_card {
     align-items: center;
     max-width: 350px;
-    margin-top: 100px;
+    margin-top: 110px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 479px) {
   .rb_hero_five .hero_wrapper .rb_signIn_card {
-    margin-top: 50px;
+    margin-top: 100px;
   }
 }
 .rb_hero_five .hero_wrapper .rb_signIn_card .rb_header {
