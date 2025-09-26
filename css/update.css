@@ -31775,6 +31775,14 @@ header {
   display: block;
 }
 
+@keyframes snipper {
+  0% {
+    box-shadow: 0 0 0 0 rgba(246, 247, 248, 0.4);
+  }
+  100% {
+    box-shadow: 0 0 0 35px rgba(236, 235, 236, 0.01);
+  }
+}
 .rb_btn_wrapper {
   display: flex;
   align-items: center;
@@ -32153,6 +32161,7 @@ header {
   gap: 32px;
   border-radius: 16px;
   background: #17304E;
+  transition: all 0.4s;
 }
 @media only screen and (min-width: 0px) and (max-width: 479px) {
   .rb_step_card .rb_card {
@@ -32220,11 +32229,19 @@ header {
   width: 100%;
   object-fit: cover;
   border-radius: 16px;
+  transition: all 0.6s;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .rb_step_card .rb_card .rb_thumb img {
     height: auto;
   }
+}
+.rb_step_card .rb_card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+.rb_step_card .rb_card:hover .rb_thumb img {
+  transform: scale(1.025);
 }
 
 .rb_testimonial {
@@ -32310,6 +32327,10 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.rb_testimonial .rb_card .rb_thumb .rb_play_icon a img {
+  animation: snipper 2s linear infinite;
+  border-radius: 40px;
 }
 @media only screen and (max-width: 1399px) {
   .rb_testimonial .rb_card .rb_thumb {
@@ -33247,6 +33268,17 @@ header {
   border-color: #FFC857;
 }
 
+@keyframes moving {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px); /* up 20px */
+  }
+  100% {
+    transform: translateY(0); /* back to start */
+  }
+}
 /*---Hero Three Section Start---*/
 .rb_hero_three {
   position: relative;
@@ -33472,16 +33504,25 @@ header {
 }
 .rb_curriculum_list .rb_card .rb_content.style_1 .rb_single_card .rb_thumb {
   position: relative;
+  overflow: hidden;
+  border-radius: 20px;
 }
 .rb_curriculum_list .rb_card .rb_content.style_1 .rb_single_card .rb_thumb img {
   width: 100%;
+  transition: all 0.6s;
 }
 .rb_curriculum_list .rb_card .rb_content.style_1 .rb_single_card .rb_thumb .rb_play_icon {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation: playButtonAnimation 2s linear infinite;
+}
+.rb_curriculum_list .rb_card .rb_content.style_1 .rb_single_card .rb_thumb .rb_play_icon a img {
+  border-radius: 40px;
+  animation: snipper 2s linear infinite;
+}
+.rb_curriculum_list .rb_card .rb_content.style_1 .rb_single_card:hover .rb_thumb img {
+  transform: scale(1.03);
 }
 
 /*---Hero Four Section Start---*/
@@ -33521,6 +33562,9 @@ header {
   top: 36%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.rb_hero_four .rb_thumb img {
+  animation: moving 7s linear infinite;
 }
 @media only screen and (max-width: 991px) {
   .rb_hero_four .rb_thumb {
@@ -33656,6 +33700,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  transition: all 0.4s;
 }
 .rb_step_card_two .rb_card .rb_step {
   margin-bottom: 16px;
@@ -34122,8 +34167,17 @@ header {
 }
 .rb_application_form .rb_shape_1 {
   position: absolute;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  box-shadow: 8px 8px 16px 0px rgba(11, 132, 254, 0.1490196078);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) -6.18%, rgba(255, 255, 255, 0.2) 80.73%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   top: 32%;
-  left: 16%;
+  left: 17%;
+  animation: moving 8s linear infinite;
 }
 @media only screen and (max-width: 1699px) {
   .rb_application_form .rb_shape_1 {
@@ -34142,8 +34196,17 @@ header {
 }
 .rb_application_form .rb_shape_2 {
   position: absolute;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  box-shadow: 8px 8px 16px 0px rgba(11, 132, 254, 0.1490196078);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) -6.18%, rgba(255, 255, 255, 0.2) 80.73%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   top: 13%;
-  right: 17%;
+  right: 19%;
+  animation: moving 5s linear infinite;
 }
 @media only screen and (max-width: 1699px) {
   .rb_application_form .rb_shape_2 {
@@ -35004,7 +35067,7 @@ header {
   position: fixed;
   right: 0;
   top: 0;
-  width: 400px;
+  width: 350px;
   height: 100%;
   -webkit-transform: translateX(calc(100% + 80px));
   -moz-transform: translateX(calc(100% + 80px));
@@ -35031,14 +35094,9 @@ header {
   -o-transform: translateX(0);
   transform: translateX(0);
 }
-@media (max-width: 575px) {
-  .offcanvas__info.info-open {
-    width: 100%;
-  }
-}
 
 .offcanvas__logo a img {
-  width: 80px;
+  width: 170px;
 }
 
 .offcanvas__wrapper {

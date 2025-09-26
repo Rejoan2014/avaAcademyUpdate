@@ -1,3 +1,17 @@
+
+@keyframes moving {
+     0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px); /* up 20px */
+  }
+  100% {
+    transform: translateY(0); /* back to start */
+  }
+}
+
+
 /*---Hero Three Section Start---*/
 .rb_hero_three {
     position: relative;
@@ -197,17 +211,31 @@
                     }
                     .rb_thumb {
                         position: relative;
+                        overflow: hidden;
+                        border-radius: 20px;
                         img {
                             width: 100%;
+                            transition: all 0.6s;
                         }
                         .rb_play_icon {
                             position: absolute;
                             top: 50%;
                             left: 50%;
                             transform: translate(-50%, -50%);
-                            animation: playButtonAnimation 2s linear infinite;
-                           
                             
+                            a img{
+                                border-radius: 40px;
+                                animation: snipper 2s linear infinite;
+                              
+                            }
+                        }
+                    }
+
+                    &:hover{
+                        .rb_thumb {
+                            img{
+                                transform: scale(1.03);
+                            }
                         }
                     }
                 }
@@ -250,6 +278,11 @@
         top: 36%;
         left: 50%;
         transform: translate(-50%, -50%); 
+
+        img{
+            animation: moving 7s linear infinite;
+        }
+
         @include md {
             top: 40%;
         }   
@@ -366,6 +399,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        transition: all 0.4s;
         .rb_step {
             margin-bottom: 16px;
             display: flex;
@@ -421,6 +455,7 @@
                 }
             }
         }        
+        
     }
 }
 // Step Card End
@@ -787,8 +822,18 @@
     }
     .rb_shape_1 {
         position: absolute;
+        height: 140px;
+        width: 140px;
+        border-radius: 50%;
+        box-shadow: 8px 8px 16px 0px #0B84FE26;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) -6.18%, rgba(255, 255, 255, 0.2) 80.73%);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
         top: 32%;
-        left: 16%;
+        left: 17%;
+        animation: moving 8s linear infinite;
+        
         @include xxxl {
             left: 11%;
         }
@@ -801,8 +846,17 @@
     }
     .rb_shape_2 {
         position: absolute;
+        height: 140px;
+        width: 140px;
+        border-radius: 50%;
+        box-shadow: 8px 8px 16px 0px #0B84FE26;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) -6.18%, rgba(255, 255, 255, 0.2) 80.73%);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
         top: 13%;
-        right: 17%;
+        right: 19%;
+        animation: moving 5s linear infinite;
         @include xxxl {
             right: 12%;
         }

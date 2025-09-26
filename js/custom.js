@@ -68,6 +68,9 @@
             }
         });
 
+        // wow animation
+         new WOW().init();
+
         // The Plan 
         function thePlan() {
                 $('.process-step:not(.active) .step-content').hide();

@@ -9,7 +9,7 @@
 	position: fixed;
 	right: 0;
 	top: 0;
-	width: 400px;
+	width: 350px;
 	height: 100%;
 	-webkit-transform: translateX(calc(100% + 80px));
 	-moz-transform: translateX(calc(100% + 80px));
@@ -36,15 +36,13 @@
 	-o-transform: translateX(0);
 	transform: translateX(0);
 
-	@include breakpoint(max-sm){
-		width: 100%;
-	}
+	
 }
 
 .offcanvas__logo {
 	a {
 		img {
-			width: 80px;
+			width: 170px;
 		}
 	}
 }
