@@ -14,11 +14,12 @@ ol {
 .email_header {
     margin-bottom: 15px;
     .rb_header_container {
+        background: #FFF;
+        padding: 10px;
         max-width: 600px;
         margin: 0 auto;
         .rb_header_logo {
             text-align: center;
-            margin-top: 28px;
         }
     }
 }
@@ -371,10 +372,6 @@ ol {
             }
         }
     }
-
-
-
-
 }
 
 .rb_email_hero3 {
@@ -492,7 +489,7 @@ ol {
         margin: auto;
         margin-top: 16px;
         display: flex;
-        width: 552px;
+        width: 100%;
         padding: 40px;
         flex-direction: column;
         align-items: flex-start;
@@ -500,6 +497,9 @@ ol {
         border-radius: 20px;
         border: 1px solid #E7E8E9;
         background: #FFF;
+        @media (max-width: 575px) {
+            padding: 20px;
+        }
         p {
             color: #4A4D56;
             font-family: Inter;
