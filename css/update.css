@@ -34492,6 +34492,18 @@ header {
 }
 
 /*---Hero five Section End---*/
+.email_header {
+  margin-bottom: 15px;
+}
+.email_header .rb_header_container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.email_header .rb_header_container .rb_header_logo {
+  text-align: center;
+  margin-top: 28px;
+}
+
 .rb_email_hero .rb_container_wrapper {
   max-width: 600px;
   margin: 0 auto;

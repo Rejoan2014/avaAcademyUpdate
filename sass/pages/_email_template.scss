@@ -1,3 +1,16 @@
+// Email Header
+.email_header {
+    margin-bottom: 15px;
+    .rb_header_container {
+        max-width: 600px;
+        margin: 0 auto;
+        .rb_header_logo {
+            text-align: center;
+            margin-top: 28px;
+        }
+    }
+}
+
 // Email Template 
 .rb_email_hero {
     .rb_container_wrapper {
