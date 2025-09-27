@@ -155,6 +155,112 @@
     }
 }
 
+.rb_email_hero2 {
+    .rb_container_wrapper {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .rb_title {
+        h2 {
+            color: #0B2545;
+            text-align: center;
+            font-family: "Playfair Display";
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 64px; /* 133.333% */
+            letter-spacing: -2.4px;
+        }
+    }
+    .rb_thumb {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .rb_title2 {
+        padding-bottom: 15px;
+        h2 {
+            color: #0B2545;
+            text-align: center;
+            font-family: "Playfair Display";
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 48px; /* 133.333% */
+            letter-spacing: -1.8px;
+        }
+    }
+    .rb_desc {
+        color: #3F444B;
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; 
+        letter-spacing: -0.16px;
+        padding-bottom: 10px;
+    }
+    .activate_btn {
+        display: flex;
+        padding: 16px 36px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 8px;
+        background: #FFC857;
+        border: none;
+        color: #0B2545;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px; 
+        margin: auto;
+        margin-bottom: 60px;
+    }
+    .rb_thumb2 {
+        text-align: center;
+        border-radius: 16px;
+        img {
+            border-radius: 16px;
+        }
+    }
+    .rb_card {
+        margin: auto;
+        margin-top: 20px;
+        display: flex;
+        width: 552px;
+        padding: 40px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 28px;
+        border-radius: 20px;
+        border: 1px solid #E7E8E9;
+        background: #FFF;
+        p {
+            color: #4A4D56;
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 36px; /* 150% */
+            letter-spacing: -0.24px;
+        }
+        h4 {
+            color: #0B2545;
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 36px; /* 150% */
+            letter-spacing: -0.24px;
+        }
+    }
+
+
+
+
+}
 .footer_email {
     margin-top: 60px;
     .rb_container_wrapper {
