@@ -154,3 +154,126 @@
         }
     }
 }
+
+.footer_email {
+    margin-top: 60px;
+    .rb_container_wrapper {
+        background: #0B2545;
+        max-width: 600px;
+        margin: 0 auto;
+        .rb_content {
+            padding: 80px 64px;
+            .rb_text {
+                color: #FFF;
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 28px; /* 175% */
+                letter-spacing: -0.16px;
+                padding-top: 10px;
+            }
+            .rb_footer_wrap {
+                padding-top: 50px;
+                .main-menu {
+                    ul {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        gap: 12px;
+                        li {
+                            width: 136px;
+                            height: 28px;
+                            a {
+                                color: #FFF;
+                                font-family: Inter;
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 28px; /* 200% */
+                                letter-spacing: -0.14px;
+                            }
+                        }
+                    }
+                }
+            }
+            .rb_social_media {
+                display: flex;
+                margin-top: 45px;
+                ul{
+                    @include flex(row, flex-start, center);
+                    gap: 12px;
+                    @include md{
+                        margin-top: 30px;
+                    }
+                    @include sm{
+                        margin-top: 20px;
+                    }
+                    li{
+                        a{
+                            display: inline-block;
+                            width:40px;
+                            height: 40px;
+                            line-height: 40px !important;
+                            padding: 0 !important;
+                            @include border-radius(50%);
+                            text-align: center;
+                            color:  $primary;
+                            @include transition(0.4s);
+                            background: #FFF;
+
+                            &:hover{
+                                color: $white !important;
+                                background: #4A4D56;
+                            }
+                        }
+                    }
+                }
+            }
+            .rb_contact {
+                .rb_title {
+                    color: #FFF;
+                    font-family: Inter;
+                    font-size: 19px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    opacity: 0.7;
+                    padding-top: 44px;
+                }
+                .rb_email {
+                    color: #FFF;
+                    font-family: Inter;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 30px;
+                    padding-top: 20px;
+                }
+            }
+            .rb_footer_text {
+                color: #FFF;
+                font-family: Inter;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 30px;
+                padding-top: 43px;
+            }
+
+        }
+        .rb_copy_right {
+            padding: 24px;
+            background: #FFF;
+            p {
+                color: #4A4D56;
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 28px; /* 175% */
+                letter-spacing: -0.16px;
+            }
+        }
+    }
+}
