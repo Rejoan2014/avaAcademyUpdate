@@ -308,12 +308,12 @@
                 slidesToScroll: 1,
                 arrows: true,
                 dots: true,
-                dotsClass: "testi_dots",
+                 appendDots: $('.testi_dots'), 
                 autoplay: true,
                 speed: 3000,
                 autoplaySpeed: 3000,
-                prevArrow: `<span class="left-arrow"><i class="fa-solid fa-angle-left"></i></span>`,
-                nextArrow: `<span class="right-arrow"><i class="fa-solid fa-angle-right"></i></span>`,
+                prevArrow: $('.left-arrow'), 
+                nextArrow: $('.right-arrow'),
                 responsive: [
                 {
                     breakpoint: 1400, // <1400px
@@ -330,7 +330,7 @@
                 {
                     breakpoint: 992, // <992px
                     settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     }
                 },
                 {

@@ -24,6 +24,14 @@
         flex-direction: row;
     }
 }
+
+.rb_ava_certified {
+    .rb_btn_wrapper{
+        @include xl{
+            gap: 12px;
+        }
+    }
+}
 .rb_btn {
     display: flex;
     padding: 16px 36px;
@@ -483,7 +491,13 @@
                     font-size: 18px;
                     line-height: 30px;
                 }
+
+                @include onlymd{
+                    font-size: 17px;
+                    line-height: 30px;
+                }
             }
+
             .rb_profile {
                 display: flex;
                 align-items: center;
@@ -546,133 +560,7 @@
     .rb_testi_slider .slick-slide {
         margin: 0 7px; 
     }
-
-    .testi_dots{
-        @include flex(row, center, center);
-        gap: 5px;
-        z-index: 110;
-        position: absolute;
-        border-radius: 100px;
-        border: 1px solid rgba(11, 37, 69, 0.10);
-        background: #FFF;
-        width: 256px;
-        height: 72px;
-        bottom: -103px;
-        left: 50%;
-        @include transformX(-50%);
-        @include sm {
-            bottom: -82px;
-        }
-        li{
-            height: 100%;
-            @include flex(row, center, center);
-            margin: 0px 10px;
-            
-        }
-        button{
-            color: rgba(74, 77, 86, 0.70);
-            font-family: $font7;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 24px; 
-            letter-spacing: -0.32px;
-            text-transform: capitalize;
-            border: none;
-            background-color: $white;
-            @include transition(0.5s);
-            @include border-radius(30px);
-        }
-        .slick-active{
-            button{
-                position: relative;
-                color: #0B2545;
-            }
-        }       
-
-    }
-    .left-arrow{
-        width: 48px;
-        height: 48px;
-        line-height: 48px;
-        text-align: center;
-        border-radius: 100px;
-        border: 1px solid rgba(74, 77, 86, 0.10);
-        background: #FFF;
-        @include border-radius(50%);
-        display: inline-block;
-        position: absolute;
-        bottom: -31.5%;
-        left: 41.4%;
-        z-index: 999;
-        @include transformY(-50%);
-        cursor: pointer;
-        @include transition(0.4s);
-        @include xl {
-            bottom: -14.5%;
-            left: 39.4%;
-        }
-        @include md {
-            bottom: -12%;
-            left: 34.4%;
-        }
-        @include sm {
-            bottom: -11.7%;
-            left: 29.4%;
-        }
-        @include xs {
-            bottom: -12.7%;
-            left: 24.4%;
-        }
-        @include xxs {
-            bottom: -15.4%;
-            left: 18%;
-        }
-        &:hover{
-            background: #FFC857;
-        }
-    }
-    .right-arrow{
-        width: 48px;
-        height: 48px;
-        line-height: 48px;
-        text-align: center;
-        border-radius: 100px;
-        border: 1px solid rgba(74, 77, 86, 0.10);
-        background: #FFF;
-        @include border-radius(50%);
-        @include xl {
-            bottom: -14.5%;
-            right: 39.4%;
-        }
-        @include md {
-            bottom: -12%;
-            right: 34.4%;
-        }
-        @include sm {
-            bottom: -11.7%;
-            right: 29.4%;
-        }
-        @include xs {
-            bottom: -12.7%;
-            right: 24.4%;
-        }
-        @include xxs {
-            bottom: -15.4%;
-            right: 18%;
-        }
-        display: inline-block;
-        position: absolute;
-        bottom: -31.5%;
-        right: 41.4%;
-        z-index: 999;
-        @include transformY(-50%);
-        cursor: pointer;
-        @include transition(0.4s);
-        &:hover{
-            background: #FFC857;
-        }
-    }    
+    
 }
 // Testimonial End
 
@@ -986,9 +874,10 @@
             gap: 40px 0px;
         }
             .footer_logo {
-            a {
                 display: flex;
+                align-items: center;
                 justify-content: center;
+            a {
                 cursor: pointer !important;
                 margin-bottom: 20px;
                 img{
@@ -1114,9 +1003,14 @@
                         padding-right: 22px;
                     }
                     ul{
+                        gap: 0;
+                        margin-left: 15px;
+                        margin-top: 5px;
                         li{
+                            min-width: 100%;
                             a{
                                 color: $gray9;
+                                padding: 12px 10px;
                                 &:hover{
                                     color: $white !important;
                                 }
@@ -1337,4 +1231,74 @@
         }
        }
     }
+}
+
+.rb_testimonial {
+    .slider-controller{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+         border-radius: 100px;
+        border: 1px solid rgba(11, 37, 69, 0.10);
+        background: #FFF;
+        padding: 12px;
+        width: fit-content;
+        margin: auto;
+        margin-top: 32px;
+    
+        .left-arrow, .right-arrow{
+            position: static;
+            height: 48px;
+            width: 48px;
+            border-radius: 50%;
+            border: 1px solid rgba(74, 77, 86, 0.10);
+            background-color: white;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.4s;
+            color: black;
+
+            &:focus{
+                 background: #FFC857;
+
+            }
+    
+        }
+         .slick-dots{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+            li{
+                height: 100%;
+                @include flex(row, center, center);
+                margin: 0px 10px;
+                
+                button{
+                    color: rgba(74, 77, 86, 0.70);
+                    font-family: $font7;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px; 
+                    letter-spacing: -0.32px;
+                    text-transform: capitalize;
+                    border: none;
+                    background-color: $white;
+                    @include transition(0.5s);
+                    @include border-radius(30px);
+                }
+                &.slick-active{
+                    button{
+                        position: relative;
+                        color: #0B2545;
+                    }
+                }       
+            }
+
+        }
+    }
+
 }
