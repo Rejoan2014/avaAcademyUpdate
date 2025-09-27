@@ -192,6 +192,9 @@
                                 font-weight: 400;
                                 line-height: 28px; /* 200% */
                                 letter-spacing: -0.14px;
+                                &:hover {
+                                    color: #FFC857;
+                                }
                             }
                         }
                     }
@@ -211,20 +214,31 @@
                     }
                     li{
                         a{
-                            display: inline-block;
-                            width:40px;
+                            display: flex;
+                            width: 40px;
                             height: 40px;
-                            line-height: 40px !important;
-                            padding: 0 !important;
-                            @include border-radius(50%);
-                            text-align: center;
-                            color:  $primary;
-                            @include transition(0.4s);
+                            padding: 10px;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            border-radius: 32px;
+                            color: #000000;
                             background: #FFF;
+                            @include transition(0.4s);
+
+                            img{
+                                filter: invert(1);
+                                -webkit-filter: invert(1);
+                            }
 
                             &:hover{
-                                color: $white !important;
+                                color: #FFFFFF;
                                 background: #4A4D56;
+                                img{
+                                    filter: invert(1);
+                                    -webkit-filter: invert(1);
+                                }
                             }
                         }
                     }
@@ -242,13 +256,18 @@
                     padding-top: 44px;
                 }
                 .rb_email {
-                    color: #FFF;
-                    font-family: Inter;
-                    font-size: 20px;
-                    font-style: normal;
-                    font-weight: 500;
-                    line-height: 30px;
-                    padding-top: 20px;
+                    padding-top: 14px;
+                    a {
+                        color: #FFF;
+                        font-family: Inter;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 30px;
+                        &:hover {
+                            color: #FFC857;
+                        }
+                    }
                 }
             }
             .rb_footer_text {

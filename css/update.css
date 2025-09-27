@@ -34680,6 +34680,9 @@ header {
   line-height: 28px; /* 200% */
   letter-spacing: -0.14px;
 }
+.footer_email .rb_container_wrapper .rb_content .rb_footer_wrap .main-menu ul li a:hover {
+  color: #FFC857;
+}
 .footer_email .rb_container_wrapper .rb_content .rb_social_media {
   display: flex;
   margin-top: 45px;
@@ -34702,24 +34705,30 @@ header {
   }
 }
 .footer_email .rb_container_wrapper .rb_content .rb_social_media ul li a {
-  display: inline-block;
+  display: flex;
   width: 40px;
   height: 40px;
-  line-height: 40px !important;
-  padding: 0 !important;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  text-align: center;
-  color: #FFC857;
-  transition: all 0.4s ease;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 32px;
+  color: #000000;
   background: #FFF;
+  transition: all 0.4s ease;
+}
+.footer_email .rb_container_wrapper .rb_content .rb_social_media ul li a img {
+  filter: invert(1);
+  -webkit-filter: invert(1);
 }
 .footer_email .rb_container_wrapper .rb_content .rb_social_media ul li a:hover {
-  color: #fff !important;
+  color: #FFFFFF;
   background: #4A4D56;
+}
+.footer_email .rb_container_wrapper .rb_content .rb_social_media ul li a:hover img {
+  filter: invert(1);
+  -webkit-filter: invert(1);
 }
 .footer_email .rb_container_wrapper .rb_content .rb_contact .rb_title {
   color: #FFF;
@@ -34732,13 +34741,18 @@ header {
   padding-top: 44px;
 }
 .footer_email .rb_container_wrapper .rb_content .rb_contact .rb_email {
+  padding-top: 14px;
+}
+.footer_email .rb_container_wrapper .rb_content .rb_contact .rb_email a {
   color: #FFF;
   font-family: Inter;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 30px;
-  padding-top: 20px;
+}
+.footer_email .rb_container_wrapper .rb_content .rb_contact .rb_email a:hover {
+  color: #FFC857;
 }
 .footer_email .rb_container_wrapper .rb_content .rb_footer_text {
   color: #FFF;
