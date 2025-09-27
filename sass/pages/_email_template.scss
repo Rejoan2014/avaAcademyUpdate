@@ -1,12 +1,25 @@
+a {
+    text-decoration: none;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+ul,
+ol {
+    list-style-type: none;
+}
+
 // Email Header
 .email_header {
     margin-bottom: 15px;
     .rb_header_container {
+        background: #FFF;
+        padding: 10px;
         max-width: 600px;
         margin: 0 auto;
         .rb_header_logo {
             text-align: center;
-            margin-top: 28px;
         }
     }
 }
@@ -242,6 +255,18 @@
             font-weight: 500;
             line-height: 64px; /* 133.333% */
             letter-spacing: -2.4px;
+            @media (max-width: 1399px) {
+                font-size: 40px;
+                line-height: 60px;
+            }
+            @media (max-width: 991px) {
+                font-size: 36px;
+                line-height: 56px;
+            }
+            @media (max-width: 575px) {
+                font-size: 32px;
+                line-height: 44px;
+            }
         }
     }
     .rb_thumb {
@@ -259,6 +284,10 @@
             font-weight: 500;
             line-height: 48px; /* 133.333% */
             letter-spacing: -1.8px;
+            @media (max-width: 575px) {
+                font-size: 32px;
+                line-height: 44px;
+            }
         }
     }
     .rb_desc {
@@ -271,6 +300,9 @@
         line-height: 28px; 
         letter-spacing: -0.16px;
         padding-bottom: 10px;
+        @media (max-width: 575px) {
+            font-size: 14px;
+        }
     }
     .activate_btn {
         display: flex;
@@ -295,13 +327,14 @@
         border-radius: 16px;
         img {
             border-radius: 16px;
+            width: 100%;
         }
     }
     .rb_card {
         margin: auto;
         margin-top: 20px;
         display: flex;
-        width: 552px;
+        width: 100%;
         padding: 40px;
         flex-direction: column;
         align-items: flex-start;
@@ -309,6 +342,9 @@
         border-radius: 20px;
         border: 1px solid #E7E8E9;
         background: #FFF;
+        @media (max-width: 575px) {
+            padding: 20px;
+        }
         p {
             color: #4A4D56;
             font-family: Inter;
@@ -317,6 +353,10 @@
             font-weight: 400;
             line-height: 36px; /* 150% */
             letter-spacing: -0.24px;
+            @media (max-width: 575px) {
+                font-size: 20px;
+                line-height: 30px;
+            }
         }
         h4 {
             color: #0B2545;
@@ -326,12 +366,12 @@
             font-weight: 600;
             line-height: 36px; /* 150% */
             letter-spacing: -0.24px;
+            @media (max-width: 575px) {
+                font-size: 20px;
+                line-height: 30px;
+            }
         }
     }
-
-
-
-
 }
 
 .rb_email_hero3 {
@@ -341,6 +381,9 @@
     }
     .rb_title {
         padding-bottom: 40px;
+        @media (max-width: 575px) {
+            padding-bottom: 25px;
+        }
         h2 {
             color: #0B2545;
             text-align: center;
@@ -350,6 +393,18 @@
             font-weight: 500;
             line-height: 64px; /* 133.333% */
             letter-spacing: -2.4px;
+            @media (max-width: 1399px) {
+                font-size: 40px;
+                line-height: 60px;
+            }
+            @media (max-width: 991px) {
+                font-size: 36px;
+                line-height: 56px;
+            }
+            @media (max-width: 575px) {
+                font-size: 32px;
+                line-height: 44px;
+            }
         }
     }
     .rb_thumb {
@@ -367,6 +422,10 @@
             font-weight: 500;
             line-height: 48px; /* 133.333% */
             letter-spacing: -1.8px;
+            @media (max-width: 575px) {
+                font-size: 32px;
+                line-height: 44px;
+            }
         }
     }
     .rb_desc {
@@ -379,6 +438,9 @@
         line-height: 28px; /* 175% */
         letter-spacing: -0.16px;
         padding-bottom: 55px;
+        @media (max-width: 575px) {
+            font-size: 14px;
+        }
     }
 
     .rb_thumb2 {
@@ -387,6 +449,7 @@
         border-radius: 16px;
         img {
             border-radius: 16px;
+            width: 100%;
         }
     }
     .tuition_btn {
@@ -408,15 +471,25 @@
         font-weight: 500;
         line-height: normal;
         letter-spacing: -2px;
+        @media (max-width: 575px) {
+            font-size: 28px;
+            line-height: 42px;
+            padding: 15px 28px;
+            height: 72px;
+        }
         span {
             font-family: "Inter", sans-serif;
+            @media (max-width: 575px) {
+                font-size: 28px;
+                line-height: 42px;
+            }
         }
     }
     .rb_card {
         margin: auto;
         margin-top: 16px;
         display: flex;
-        width: 552px;
+        width: 100%;
         padding: 40px;
         flex-direction: column;
         align-items: flex-start;
@@ -424,6 +497,9 @@
         border-radius: 20px;
         border: 1px solid #E7E8E9;
         background: #FFF;
+        @media (max-width: 575px) {
+            padding: 20px;
+        }
         p {
             color: #4A4D56;
             font-family: Inter;
@@ -432,6 +508,10 @@
             font-weight: 400;
             line-height: 36px; /* 150% */
             letter-spacing: -0.24px;
+            @media (max-width: 575px) {
+                font-size: 20px;
+                line-height: 30px;
+            }
         }
         h4 {
             color: #0B2545;
@@ -441,6 +521,10 @@
             font-weight: 600;
             line-height: 36px; /* 150% */
             letter-spacing: -0.24px;
+            @media (max-width: 575px) {
+                font-size: 20px;
+                line-height: 30px;
+            }
         }
     }
     .accept_btn {
@@ -463,6 +547,10 @@
         margin-top: 16px;
         margin-bottom: 60px;
         cursor: pointer;
+        @media (max-width: 575px) {
+            width: 100%;
+            padding: 16px 20px;
+        }        
     }
 
 
@@ -548,7 +636,6 @@
                             border-radius: 32px;
                             color: #000000;
                             background: #FFF;
-                            @include transition(0.4s);
 
                             img{
                                 filter: invert(1);
