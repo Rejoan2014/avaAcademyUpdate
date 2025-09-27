@@ -34492,6 +34492,151 @@ header {
 }
 
 /*---Hero five Section End---*/
+.rb_email_hero .rb_container_wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.rb_email_hero .rb_content .rb_title h2 {
+  color: #0B2545;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: -2.4px;
+  padding-top: 45px;
+}
+.rb_email_hero .rb_content .rb_divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.rb_email_hero .rb_content .rb_divider .rb_hr_line {
+  width: 250px;
+  height: 1px;
+  background: rgba(11, 37, 69, 0.14);
+}
+.rb_email_hero .rb_content .rb_name h3 {
+  color: #0B2545;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.4px;
+  padding-bottom: 17px;
+}
+.rb_email_hero .rb_content .rb_desc {
+  display: flex;
+  justify-content: center;
+}
+.rb_email_hero .rb_content .rb_desc p {
+  color: #3F444B;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.18px;
+  max-width: 460px;
+}
+
+.rb_training_section {
+  margin-top: 48px;
+}
+.rb_training_section .rb_container_wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.rb_training_section .rb_top_header {
+  background: #FFC857;
+  padding: 72px 54px 194px;
+}
+.rb_training_section .rb_top_header h2 {
+  color: #0B2545;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 52px; /* 130% */
+  letter-spacing: -2px;
+}
+.rb_training_section .rb_card_wrapper {
+  margin-top: -168px !important;
+  margin: auto;
+  border-radius: 20px;
+  border: 1px solid #E7E8E9;
+  background: #FFF;
+  display: flex;
+  width: 552px;
+  padding: 32px 28px;
+  align-items: flex-start;
+  gap: 30px;
+}
+.rb_training_section .rb_card_wrapper .rb_card .rb_title {
+  color: #4A4D56;
+  font-family: "Playfair Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.2px;
+  padding-bottom: 24px;
+}
+.rb_training_section .rb_card_wrapper .rb_card .rb_thumb {
+  position: relative;
+}
+.rb_training_section .rb_card_wrapper .rb_card .rb_thumb .rb_play_icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.rb_training_section .rb_card_two {
+  display: flex;
+  width: 552px;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+  border-radius: 20px;
+  border: 2px solid #F7F7F7;
+  background: #FFF;
+  margin: auto;
+  margin-top: 20px;
+}
+.rb_training_section .rb_card_two .rb_title h2 {
+  color: #4A4D56;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 150% */
+  letter-spacing: -0.24px;
+}
+.rb_training_section .rb_card_two .rb_title h2 span {
+  color: #0B2545;
+}
+.rb_training_section .rb_card_two .rb_title .fix_pb {
+  padding-bottom: 8px;
+}
+.rb_training_section .rb_card_two .rb_title2 {
+  color: #0B2545;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px; /* 150% */
+  letter-spacing: -0.24px;
+}
+
 .header_area_2 .sub_heading h4 {
   display: flex;
   width: fit-content;
@@ -35269,6 +35414,4 @@ h5,
 h6,
 p {
   margin: 0;
-}
-
-/*# sourceMappingURL=update.css.map */
+}/*# sourceMappingURL=update.css.map */
