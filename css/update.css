@@ -34654,7 +34654,7 @@ ol {
 }
 .rb_training_section .rb_card_two .rb_title h2 {
   color: #4A4D56;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -34675,7 +34675,7 @@ ol {
 }
 .rb_training_section .rb_card_two .rb_title2 {
   color: #0B2545;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -34760,7 +34760,7 @@ ol {
 .rb_email_hero2 .rb_desc {
   color: #3F444B;
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -34783,7 +34783,7 @@ ol {
   background: #FFC857;
   border: none;
   color: #0B2545;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -34819,7 +34819,7 @@ ol {
 }
 .rb_email_hero2 .rb_card p {
   color: #4A4D56;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -34834,7 +34834,7 @@ ol {
 }
 .rb_email_hero2 .rb_card h4 {
   color: #0B2545;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -34922,7 +34922,7 @@ ol {
 .rb_email_hero3 .rb_desc {
   color: rgba(11, 37, 69, 0.7);
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -35002,7 +35002,7 @@ ol {
 }
 .rb_email_hero3 .rb_card p {
   color: #4A4D56;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -35017,7 +35017,7 @@ ol {
 }
 .rb_email_hero3 .rb_card h4 {
   color: #0B2545;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -35041,7 +35041,7 @@ ol {
   background: #FFC857;
   border: none;
   color: #0B2545;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -35081,7 +35081,7 @@ ol {
 }
 .footer_email .rb_container_wrapper .rb_content .rb_text {
   color: #FFF;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -35114,7 +35114,7 @@ ol {
 }
 .footer_email .rb_container_wrapper .rb_content .rb_footer_wrap .main-menu ul li a {
   color: #FFF;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -35166,7 +35166,7 @@ ol {
 }
 .footer_email .rb_container_wrapper .rb_content .rb_contact .rb_title {
   color: #FFF;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 19px;
   font-style: normal;
   font-weight: 400;
@@ -35185,7 +35185,7 @@ ol {
 }
 .footer_email .rb_container_wrapper .rb_content .rb_contact .rb_email a {
   color: #FFF;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -35201,7 +35201,7 @@ ol {
 }
 .footer_email .rb_container_wrapper .rb_content .rb_footer_text {
   color: #FFF;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -35220,7 +35220,7 @@ ol {
 }
 .footer_email .rb_container_wrapper .rb_copy_right p {
   color: #4A4D56;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
