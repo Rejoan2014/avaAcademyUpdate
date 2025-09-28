@@ -258,6 +258,7 @@ ol {
         max-width: 600px;
         margin: 0 auto;
         padding: 0 24px;
+        padding-top: 24px !important;
         @media (max-width: 575px) {
             padding-top: 30px !important;
             padding: 0 20px;
@@ -401,6 +402,12 @@ ol {
     .rb_container_wrapper {
         max-width: 600px;
         margin: 0 auto;
+        padding: 0 24px;
+        padding-top: 24px !important;
+        @media (max-width: 575px) {
+            padding-top: 30px !important;
+            padding: 0 20px;
+        }
     }
     .rb_title {
         padding-bottom: 40px;
@@ -500,7 +507,6 @@ ol {
             line-height: 42px;
             padding: 15px 28px;
             height: 72px;
-            width: 94%;
         }
         span {
             font-family: "Inter", sans-serif;
@@ -524,7 +530,6 @@ ol {
         background: #FFF;
         @media (max-width: 575px) {
             padding: 20px;
-            width: 94%;
         }
         p {
             color: #4A4D56;
@@ -575,7 +580,6 @@ ol {
         cursor: pointer;
         width: 100%;
         @media (max-width: 575px) {
-            width: 94%;
             padding: 16px 20px;
         }        
     }

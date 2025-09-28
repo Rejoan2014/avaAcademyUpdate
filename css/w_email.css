@@ -274,6 +274,7 @@ ol {
   max-width: 600px;
   margin: 0 auto;
   padding: 0 24px;
+  padding-top: 24px !important;
 }
 @media (max-width: 575px) {
   .rb_email_hero2 .rb_container_wrapper {
@@ -431,6 +432,14 @@ ol {
 .rb_email_hero3 .rb_container_wrapper {
   max-width: 600px;
   margin: 0 auto;
+  padding: 0 24px;
+  padding-top: 24px !important;
+}
+@media (max-width: 575px) {
+  .rb_email_hero3 .rb_container_wrapper {
+    padding-top: 30px !important;
+    padding: 0 20px;
+  }
 }
 .rb_email_hero3 .rb_title {
   padding-bottom: 40px;
@@ -543,7 +552,6 @@ ol {
     line-height: 42px;
     padding: 15px 28px;
     height: 72px;
-    width: 94%;
   }
 }
 .rb_email_hero3 .tuition_btn span {
@@ -571,7 +579,6 @@ ol {
 @media (max-width: 575px) {
   .rb_email_hero3 .rb_card {
     padding: 20px;
-    width: 94%;
   }
 }
 .rb_email_hero3 .rb_card p {
@@ -628,7 +635,6 @@ ol {
 }
 @media (max-width: 575px) {
   .rb_email_hero3 .accept_btn {
-    width: 94%;
     padding: 16px 20px;
   }
 }
