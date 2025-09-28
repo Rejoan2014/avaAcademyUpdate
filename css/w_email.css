@@ -745,15 +745,13 @@ ol {
 }
 .footer_email .rb_container_wrapper .rb_content .rb_social_media ul li a img {
   filter: invert(1);
-  -webkit-filter: invert(1);
 }
 .footer_email .rb_container_wrapper .rb_content .rb_social_media ul li a:hover {
   color: #FFFFFF;
   background: #4A4D56;
 }
 .footer_email .rb_container_wrapper .rb_content .rb_social_media ul li a:hover img {
-  filter: invert(1);
-  -webkit-filter: invert(1);
+  filter: invert(0);
 }
 .footer_email .rb_container_wrapper .rb_content .rb_contact .rb_title {
   color: #FFF;
