@@ -12,8 +12,10 @@ ol {
   list-style-type: none;
 }
 
-.email_header {
-  margin-bottom: 15px;
+@media (max-width: 575px) {
+  .email_header {
+    margin-bottom: 15px;
+  }
 }
 .email_header .rb_header_container {
   background: #FFF;
@@ -69,6 +71,12 @@ ol {
   margin-top: 40px;
   margin-bottom: 40px;
 }
+@media (max-width: 575px) {
+  .rb_email_hero .rb_content .rb_divider {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
 .rb_email_hero .rb_content .rb_divider .rb_hr_line {
   width: 250px;
   height: 1px;
@@ -110,6 +118,12 @@ ol {
   .rb_email_hero .rb_content .rb_desc p {
     font-size: 14px;
     line-height: 22px;
+    max-width: 340px;
+  }
+}
+@media (max-width: 479px) {
+  .rb_email_hero .rb_content .rb_desc p {
+    max-width: 272px;
   }
 }
 
@@ -215,7 +229,7 @@ ol {
 }
 @media (max-width: 575px) {
   .rb_training_section .rb_card_two {
-    width: 100%;
+    width: 94%;
     padding: 24px 22px;
   }
 }
@@ -259,6 +273,13 @@ ol {
 .rb_email_hero2 .rb_container_wrapper {
   max-width: 600px;
   margin: 0 auto;
+  padding: 0 24px;
+}
+@media (max-width: 575px) {
+  .rb_email_hero2 .rb_container_wrapper {
+    padding-top: 30px !important;
+    padding: 0 20px;
+  }
 }
 .rb_email_hero2 .rb_title h2 {
   color: #0B2545;
@@ -291,6 +312,11 @@ ol {
 .rb_email_hero2 .rb_thumb {
   text-align: center;
   padding-bottom: 10px;
+}
+@media (max-width: 575px) {
+  .rb_email_hero2 .rb_thumb img {
+    width: 56%;
+  }
 }
 .rb_email_hero2 .rb_title2 {
   padding-bottom: 15px;
@@ -509,6 +535,7 @@ ol {
   font-weight: 500;
   line-height: normal;
   letter-spacing: -2px;
+  width: 100%;
 }
 @media (max-width: 575px) {
   .rb_email_hero3 .tuition_btn {
@@ -516,6 +543,7 @@ ol {
     line-height: 42px;
     padding: 15px 28px;
     height: 72px;
+    width: 94%;
   }
 }
 .rb_email_hero3 .tuition_btn span {
@@ -543,6 +571,7 @@ ol {
 @media (max-width: 575px) {
   .rb_email_hero3 .rb_card {
     padding: 20px;
+    width: 94%;
   }
 }
 .rb_email_hero3 .rb_card p {
@@ -595,10 +624,11 @@ ol {
   margin-top: 16px;
   margin-bottom: 60px;
   cursor: pointer;
+  width: 100%;
 }
 @media (max-width: 575px) {
   .rb_email_hero3 .accept_btn {
-    width: 100%;
+    width: 94%;
     padding: 16px 20px;
   }
 }

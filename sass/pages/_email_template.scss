@@ -12,7 +12,9 @@ ol {
 
 // Email Header
 .email_header {
-    margin-bottom: 15px;
+    @media (max-width: 575px) {
+        margin-bottom: 15px;
+    }
     .rb_header_container {
         background: #FFF;
         padding: 10px;
@@ -68,6 +70,10 @@ ol {
             gap: 13px;
             margin-top: 40px;
             margin-bottom: 40px;
+            @media (max-width: 575px) {
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
             .rb_hr_line {
                 width: 250px;
                 height: 1px;
@@ -107,6 +113,10 @@ ol {
                 @media (max-width: 575px) {
                     font-size: 14px;
                     line-height: 22px; 
+                    max-width: 340px;
+                }
+                @media (max-width: 479px) {
+                    max-width: 272px;
                 }
             }
         }
@@ -203,7 +213,7 @@ ol {
         margin: auto;
         margin-top: 20px;
         @media (max-width: 575px) {
-            width: 100%;
+            width: 94%;
             padding: 24px 22px;
         }
         .rb_title {
@@ -247,6 +257,11 @@ ol {
     .rb_container_wrapper {
         max-width: 600px;
         margin: 0 auto;
+        padding: 0 24px;
+        @media (max-width: 575px) {
+            padding-top: 30px !important;
+            padding: 0 20px;
+        }
     }
     .rb_title {
         h2 {
@@ -275,6 +290,11 @@ ol {
     .rb_thumb {
         text-align: center;
         padding-bottom: 10px;
+        img {
+            @media (max-width: 575px) {
+                width: 56%;
+            }
+        }
     }
     .rb_title2 {
         padding-bottom: 15px;
@@ -474,11 +494,13 @@ ol {
         font-weight: 500;
         line-height: normal;
         letter-spacing: -2px;
+        width: 100%;
         @media (max-width: 575px) {
             font-size: 28px;
             line-height: 42px;
             padding: 15px 28px;
             height: 72px;
+            width: 94%;
         }
         span {
             font-family: "Inter", sans-serif;
@@ -502,6 +524,7 @@ ol {
         background: #FFF;
         @media (max-width: 575px) {
             padding: 20px;
+            width: 94%;
         }
         p {
             color: #4A4D56;
@@ -550,8 +573,9 @@ ol {
         margin-top: 16px;
         margin-bottom: 60px;
         cursor: pointer;
+        width: 100%;
         @media (max-width: 575px) {
-            width: 100%;
+            width: 94%;
             padding: 16px 20px;
         }        
     }
