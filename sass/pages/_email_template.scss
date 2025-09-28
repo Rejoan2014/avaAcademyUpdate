@@ -20,6 +20,14 @@ ol {
         padding: 10px;
         max-width: 600px;
         margin: 0 auto;
+        &.email_bg {
+            background: inherit;
+            padding-top: 30px;
+            @media (max-width: 575px) {
+                background: #FFF;
+                padding-top: 10px;
+            }
+        }
         .rb_header_logo {
             text-align: center;
         }
@@ -581,6 +589,9 @@ ol {
         width: 100%;
         @media (max-width: 575px) {
             padding: 16px 20px;
+        }        
+        @media (max-width: 389px) {
+            padding: 16px 13px;
         }        
     }
 

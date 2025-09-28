@@ -23,6 +23,16 @@ ol {
   max-width: 600px;
   margin: 0 auto;
 }
+.email_header .rb_header_container.email_bg {
+  background: inherit;
+  padding-top: 30px;
+}
+@media (max-width: 575px) {
+  .email_header .rb_header_container.email_bg {
+    background: #FFF;
+    padding-top: 10px;
+  }
+}
 .email_header .rb_header_container .rb_header_logo {
   text-align: center;
 }
@@ -636,6 +646,11 @@ ol {
 @media (max-width: 575px) {
   .rb_email_hero3 .accept_btn {
     padding: 16px 20px;
+  }
+}
+@media (max-width: 389px) {
+  .rb_email_hero3 .accept_btn {
+    padding: 16px 13px;
   }
 }
 
