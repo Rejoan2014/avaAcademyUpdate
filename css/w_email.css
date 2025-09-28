@@ -224,6 +224,16 @@ ol {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.rb_training_section .rb_card_wrapper .rb_card .rb_thumb .rb_play_icon img {
+  width: 40px;
+  height: 40px;
+}
+@media (max-width: 575px) {
+  .rb_training_section .rb_card_wrapper .rb_card .rb_thumb .rb_play_icon img {
+    width: 32px;
+    height: 32px;
+  }
+}
 .rb_training_section .rb_card_two {
   display: flex;
   width: 552px;
