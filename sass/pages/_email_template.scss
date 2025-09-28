@@ -153,10 +153,13 @@ ol {
         @media (max-width: 575px) {
             display: flex;
             flex-direction: column;
-            width: 100%;
+            width: 94%;
             padding: 24px 22px;
         }
         .rb_card {
+            @media (max-width: 575px){
+                width: 100%;
+            }
             .rb_title {
                 color: #4A4D56;
                 font-family: "Playfair Display";
