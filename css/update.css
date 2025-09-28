@@ -34570,8 +34570,13 @@ ol {
   .rb_training_section .rb_card_wrapper {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 94%;
     padding: 24px 22px;
+  }
+}
+@media (max-width: 575px) {
+  .rb_training_section .rb_card_wrapper .rb_card {
+    width: 100%;
   }
 }
 .rb_training_section .rb_card_wrapper .rb_card .rb_title {
@@ -35949,6 +35954,4 @@ h5,
 h6,
 p {
   margin: 0;
-}
-
-/*# sourceMappingURL=update.css.map */
+}/*# sourceMappingURL=update.css.map */
