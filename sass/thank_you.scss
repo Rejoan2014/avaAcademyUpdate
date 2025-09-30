@@ -1,41 +1,14 @@
-@import "mixin";
-@import "variables";
 @import "./partials/animation";
-@import "./pages/home2.scss";
-@import "./pages/curriculam.scss";
+@import "./pages/thank_you.scss";
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: $font-family;
+    font-family: "Inter", sans-serif;
 }
 body {
-    background: #F7F7F7;
+    background: #0B2545;
 }
-html {
-  scroll-behavior: smooth; }
-a {
-    text-decoration: none;
-}
-ul{
-    padding: 0px;
-    margin: 0px;
-}
-ul,
-ol {
-    list-style-type: none;
-}
-.text-right{
-    text-align: right !important;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0;
-}
+
 
